@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}

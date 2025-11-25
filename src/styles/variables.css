@@ -1,0 +1,32 @@
+:root {
+    --color-bg-page: #F5F5F5;
+    --color-white: #FFFFFF;
+
+    --color-border: #D7D5EB;
+
+    --color-label: #1C1C1C;
+    --color-value: #2A2A2A;
+    --color-placeholder: #B7BBCD;
+
+    --color-green-check: #2FB85F;
+    --color-green-check-bg: #E3F7E8;
+
+    --color-btn-primary: #9BE68C;
+    --color-btn-secondary: #CBD1E8;
+    --color-btn-text: #1C1C1C;
+
+    --radius-card: 26px;
+    --radius-field: 14px;
+    --radius-button: 14px;
+
+    --height-field: 83px;
+    --height-button: 85px;
+
+    --spacing-card-vertical: 32px;
+    --spacing-card-horizontal: 40px;
+    --spacing-fields-gap: 20px;
+    --spacing-buttons-gap: 16px;
+
+    --font-base: 16px;
+    --font-button: 18px;
+}

@@ -1,0 +1,10 @@
+.form-card {
+    background: var(--color-white);
+    border-radius: var(--radius-card);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+    padding: var(--spacing-card-vertical) var(--spacing-card-horizontal);
+    width: 644px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
