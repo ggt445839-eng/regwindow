@@ -1,0 +1,67 @@
+.magazine-container {
+    display: flex;
+    flex-direction: column;
+    width: 644px;
+    max-width: 100%;
+    margin-top: 48px;
+    padding-top: 0;
+}
+
+/* Заголовок журнала */
+.magazine-title {
+    font-weight: 300;
+    font-size: var(--font-magazine-h1);
+    color: var(--color-mag);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.magazine-name {
+    font-weight: 700;
+    font-size: var(--font-base);
+    color: var(--color-label);
+}
+
+.magazine-meta {
+    font-size: var(--font-base);
+    color: var(--color-placeholder);
+    margin-top: 4px;
+}
+
+.magazine-divider {
+    margin-top: 24px;
+    border: none;
+    border-top: 1px solid var(--color-border);
+}
+
+.magazine-empty {
+    text-align: center;
+    color: var(--color-placeholder);
+    margin-top: 32px;
+    font-size: var(--font-base);
+}
+
+.error-text {
+    color: #ea0808;
+    font-weight: 700;
+}
+
+.magazine-skeleton {
+    margin-top: 32px;
+    width: 100%;
+
+    height: 384px;
+    background-color: #e5e7eb;
+    border-radius: var(--radius-card);
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}

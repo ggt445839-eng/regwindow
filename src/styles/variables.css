@@ -14,6 +14,7 @@
     --color-btn-primary: #9BE68C;
     --color-btn-secondary: #CBD1E8;
     --color-btn-text: #1C1C1C;
+    --color-mag: #000000;
 
     --radius-card: 26px;
     --radius-field: 14px;
@@ -29,4 +30,6 @@
 
     --font-base: 16px;
     --font-button: 18px;
+    --font-magazine-h1: 38px;
+    --frot-magazine-h3: 9px
 }

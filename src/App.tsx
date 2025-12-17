@@ -1,11 +1,11 @@
-import Reg from "./components/regform/Reg.tsx";
+import MemeSendModal from "@/components/MemeSendModal.tsx";
 
-const App = () =>{
+
+const  App = () => {
     return (
-        <div>
-            <Reg />
-
+        <div className="min-h-screen bg-[var(--color-bg-page)]">
+            <MemeSendModal />
         </div>
     )
-}
-export default App;
+};
+export  default App

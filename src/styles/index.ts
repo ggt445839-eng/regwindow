@@ -7,6 +7,7 @@ import "./globals.css";
 
 import "./components/Buttons.css";
 import "./components/Form.css";
-import "./components/FormCard.css"
+import "./components/FormCard.css";
+import "./components/Magazine.css";
 
 export {};
